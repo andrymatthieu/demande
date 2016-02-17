@@ -1,0 +1,9 @@
+sales_demande_homepage:
+    path:     /list/
+    defaults: { _controller: SalesDemandeBundle:Default:list }
+sales_demande_add:
+    path:     /add/
+    defaults: { _controller: SalesDemandeBundle:Default:add }
+sales_demande_insert:
+    path:     /insert/
+    defaults: { _controller: SalesDemandeBundle:Default:insert }
